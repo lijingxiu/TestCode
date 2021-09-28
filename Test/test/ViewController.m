@@ -101,7 +101,7 @@ static void hookInstanceMethod(Class class, SEL originSel, SEL overrideSel) {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor blackColor];
     class_getInstanceSize([self class]);
-    NSLog(@"%d",sizeof(self.sizeInt));
+    NSLog(@"%d1",sizeof(self.sizeInt));
 //    self.view.backgroundColor = [UIColor whiteColor];
 //    UIView *view = UIView.new;
 //    view.backgroundColor = UIColor.redColor;
